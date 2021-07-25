@@ -1,0 +1,56 @@
+.NavigationItem{
+    display: block;
+    
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.NavigationItem a {
+   color: rgb(109, 110, 101);
+   text-decoration: none;
+    width: 100%;
+   
+   display: block;
+   box-sizing: border-box;
+   
+}
+.NavigationItem a:hover ,
+.NavigationItem a:active ,
+.NavigationItem a.active {
+ 
+    
+    color: rgb(124, 126, 112);
+    
+}
+
+@media(min-width:500px){
+    .NavigationItem{
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        height: 100%;
+        width: auto;
+        margin: 0;
+    }
+    
+    .NavigationItem a {
+       color:rgb(109, 110, 101);
+       text-decoration: none;
+       height: 100%;
+       border-bottom: 4px solid transparent;
+       padding: 16px 10px;
+      
+       
+    }
+    .NavigationItem a:hover ,
+    .NavigationItem a:active ,
+    .NavigationItem a.active {
+        
+        
+        color:rgb(167, 168, 158);
+        
+    }
+    
+
+}
